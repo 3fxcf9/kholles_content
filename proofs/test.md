@@ -1,5 +1,5 @@
 ---
-title: title
+title: test
 authors:
   - Félix Rondeau
 date: 24/02/2025
