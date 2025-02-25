@@ -1,5 +1,5 @@
 ---
-title: title
+title: template
 authors:
   - Félix Rondeau
 date: 24/02/2025
