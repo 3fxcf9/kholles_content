@@ -24,11 +24,11 @@ Notons $(a_{i})_{i\in I}$ la famille $\mathcal{F}$.
   - $\mathcal{F}$ est une base donc $\mathcal{F}$ est génératrice donc $x$ s’écrit comme une combinaison linéaire de vecteurs de $\mathcal{F}$
   - $\mathcal{F}$ est une base donc $\mathcal{F}$ est libre donc $x$ s’écrit de manière unique comme combinaison linéaire de vecteurs de $\mathcal{F}$
 
-- $\bigl((ii) \implies (iii)\bigr)$ Supposons que tout vecteur de $E$ s’écrit d’une manière unique comme une combinaison linéaire des vecteurs de $\mathcal{F}$. Alors $E\subset \mathcal{F}$ or $\Vect \mathcal{F}\subset E$ donc $\Vect \mathcal{F} = E$ donc $\mathcal F$ est génératrice.
+- $\bigl((ii) \implies (iii)\bigr)$ Supposons que tout vecteur de $E$ s’écrit d’une manière unique comme une combinaison linéaire des vecteurs de $\mathcal{F}$. Alors $E\subset \Vect \mathcal{F}$ or $\Vect \mathcal{F}\subset E$ donc $\Vect \mathcal{F} = E$ donc $\mathcal F$ est génératrice.
 
   > _Rappel&nbsp;:_ $\mathcal{F}$ est génératrice minimale signifie qu’aucune sous-famille stricte de $\mathcal{F}$ n’est génératrice. Il suffit donc de montrer qu’une sous-famille $\mathcal{F}'$ de $\mathcal{F}$ quelconque n’est pas génératrice.
 
-  Soit $\mathcal{F'}$ une sous-famille stricte de $\mathcal{F}$; supposons-la génératrice. Par définition, il existe un élément $a$ de $\mathcal{F}$ n’appartenant pas oà $\mathcal{F'}$. De plus, $\mathcal{F'}$ étant génératrice, cet élément s’écrit comme combinaison linéaire de vecteurs de $\mathcal{F'}$ (combinaison linéaire des vecteurs de $\mathcal{F}$ avec le coefficient devant $a$ nul). Or $a=1 \cdot a$ ce qui contredit l’unicité de lécriture de $a$ comme combinaison linéaire de vecteurs de $\mathcal{F}$. Ainsi, $\mathcal{F}$ est génératrice minimale.
+  Soit $\mathcal{F'}$ une sous-famille stricte de $\mathcal{F}$; supposons-la génératrice. Par définition, il existe un élément $a$ de $\mathcal{F}$ n’appartenant pas à $\mathcal{F'}$. De plus, $\mathcal{F'}$ étant génératrice, cet élément s’écrit comme combinaison linéaire de vecteurs de $\mathcal{F'}$ (combinaison linéaire des vecteurs de $\mathcal{F}$ avec le coefficient devant $a$ nul). Or $a=1 \cdot a$ ce qui contredit l’unicité de lécriture de $a$ comme combinaison linéaire de vecteurs de $\mathcal{F}$. Ainsi, $\mathcal{F}$ est génératrice minimale.
 
 - $\bigl((iii) \implies (iv)\bigr)$ Supposons que $\mathcal{F}$ est une famille génératrice minimale. Représentons $\mathcal{F}$ par $(x_{i})_{i\in I}$.
 
@@ -36,7 +36,7 @@ Notons $(a_{i})_{i\in I}$ la famille $\mathcal{F}$.
 
   - > _Rappel&nbsp;:_ $\mathcal{F}$ est libre maximale signifie que toute famille ayant $\mathcal{F}$ comme sous-famille stricte est liée, ou encore qu’il n’existe pas de famille libre contenant strictement $\mathcal{F}$
 
-    Soit $\mathcal{F'}$ une famille libre admettant $\mathcal{F}$ comme sous-famille stricte. Notons $a$ un élément de $\mathcal{F}$ n’appartenant pas oà $\mathcal{F'}$.
+    Soit $\mathcal{F'}$ une famille libre admettant $\mathcal{F}$ comme sous-famille stricte. Notons $a$ un élément de $\mathcal{F}$ n’appartenant pas à $\mathcal{F'}$.
 
     $\mathcal{F}$ est génératrice donc $a\in\Vect\mathcal{F}$ donc $a$ s’écrit comme combinaison linéaire des autres vecteurs de $\mathcal{F'}$. Or $a\in \mathcal{F'}$ donc $\mathcal{F'}$ est liée d’où une contradiction. Ainsi $\mathcal{F}$ n’admet aucune famille libre la contenant strictement, donc $\mathcal{F}$ est libre maximale.
 
