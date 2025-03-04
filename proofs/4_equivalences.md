@@ -32,7 +32,7 @@ Notons $(a_{i})_{i\in I}$ la famille $\mathcal{F}$.
 
 - $\bigl((iii) \implies (iv)\bigr)$ Supposons que $\mathcal{F}$ est une famille génératrice minimale. Représentons $\mathcal{F}$ par $(x_{i})_{i\in I}$.
 
-  - Supposons $\mathcal{F}$ liée. Alors un des vecteur doté $x_{i_{0}}$ s’écrit comme combinaison linéaire des autres vecteurs de la famille~: $x_{i_{0}} \in \left\{x_{i} \mid i\in I\setminus \{i_{0}\}\right\}$. Or $\mathcal{F}$ est génératrice donc $(x_{i})_{i\in I\setminus \{i_{0}\}}$ l’est également. Ainsi $(x_{i})_{i\in ei\setminus \{i_{0}\}}$ est une sous-famille stricte de $\mathcal{F}$ qui est génératrice, ce qui contredit le caractère générateur minimal de $\mathcal{F}$, donc $\mathcal{F}$ est libre.
+  - Supposons $\mathcal{F}$ liée. Alors un des vecteur doté $x_{i_{0}}$ s’écrit comme combinaison linéaire des autres vecteurs de la famille : $x_{i_{0}} \in \left\{x_{i} \mid i\in I\setminus \{i_{0}\}\right\}$. Or $\mathcal{F}$ est génératrice donc $(x_{i})_{i\in I\setminus \{i_{0}\}}$ l’est également. Ainsi $(x_{i})_{i\in ei\setminus \{i_{0}\}}$ est une sous-famille stricte de $\mathcal{F}$ qui est génératrice, ce qui contredit le caractère générateur minimal de $\mathcal{F}$, donc $\mathcal{F}$ est libre.
 
   - > _Rappel&nbsp;:_ $\mathcal{F}$ est libre maximale signifie que toute famille ayant $\mathcal{F}$ comme sous-famille stricte est liée, ou encore qu’il n’existe pas de famille libre contenant strictement $\mathcal{F}$
 
@@ -42,4 +42,4 @@ Notons $(a_{i})_{i\in I}$ la famille $\mathcal{F}$.
 
 - $\bigl((iv) \implies (i)\bigr)$ Supposons que $\mathcal{F}$ est une famille libre maximale.
   - $\mathcal{F}$ est libre
-  - Supposons que $\mathcal{F}$ n’est pas génératrice. Alors $\Vect\mathcal{F} \varsubsetneq E$ donc $\exists a\in E: a\notin \Vect \mathcal{F}$, or $\mathcal{F}$ est libre donc $(\mathcal{F}, a)$ (adjonction du vecteur $a$ oà la famille $\mathcal{F}$) est libre, ce qui contredit le fait que $\mathcal{F}$ est libre maximale (car $(\mathcal{F}, a)$ est libre et admet $\mathcal{F}$ comme sous-famille stricte). Par conséquent, $\mathcal{F}$ est génératrice, et ainsi, $\mathcal{F}$ est une base de $E$.
+  - Supposons que $\mathcal{F}$ n’est pas génératrice. Alors $\Vect\mathcal{F} \varsubsetneq E$ donc $\exists a\in E: a\notin \Vect \mathcal{F}$, or $\mathcal{F}$ est libre donc $(\mathcal{F}, a)$ (adjonction du vecteur $a$ à la famille $\mathcal{F}$) est libre, ce qui contredit le fait que $\mathcal{F}$ est libre maximale (car $(\mathcal{F}, a)$ est libre et admet $\mathcal{F}$ comme sous-famille stricte). Par conséquent, $\mathcal{F}$ est génératrice, et ainsi, $\mathcal{F}$ est une base de $E$.

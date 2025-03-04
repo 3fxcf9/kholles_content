@@ -11,16 +11,9 @@ tags:
   - algèbre linéaire
 ---
 
-Soit $f \in \mathcal{L}_\K(E, F)$.
+Soient $f \in \mathcal{L}_\K(E, F)$, $F'$ un sous-espace vectoriel de $F$ et $E'$ un sous-espace vectoriel de $E$.
 
-$$
-    \begin{aligned}
-        \ker f & = \left\{ x \in E \;|\; f(x) = 0_F \right\} = f^{-1} (\{0_F\}) \\
-        \Im f  & = \left\{ y \in F \;|\; \exists x \in E : f(x) = y \right\}
-    \end{aligned}
-$$
-
-Nous démontrerons le résultat plus général suivant~:
+Nous démontrerons le résultat plus général suivant :
 
 1. $f(E')$ est un sous-espace vectoriel de $F$.
 2. $f^{-1}(F')$ est un sous-espace vectoriel de $E$.
@@ -44,14 +37,12 @@ Nous démontrerons le résultat plus général suivant~:
 
    Donc $f(E')$ est un sous-espace vectoriel.
 
-2. $0_F \in F'$ et $f(0_E) = 0_F$ donc $0_E \in f^{-1}(F')$ d'où $f(F') \neq \emptyset$
+2. - $f^{-1}(F') \subset E$ et $E$ est un $\K$-espace vectoriel.
+   - $f^{-1}(F')\neq \emptyset$ car $f(O_{E})=0_{F}\in F'$ donc $O_{E}\in f^{-1}(F')$
+   - Soient $(x_{1}, x_{2})\in f^{-1}(F')^{2}$ et $\lambda\in\K$ fixés quelconques. Calculons
 
-   Soit $(\alpha, \beta, x, x') \in \K^2 \times f^{-1}(F')^2$ fixés quelconques.
+   $$
+   f(\lambda x_{1} + x_{2})=\lambda \underbrace{f(x_{1})}_{\in F' \quad\text{car $x_{1}\in f^{-1}(F')$}}+\underbrace{f(x_{2})}_{\in F' \quad\text{car $x_{2}\in f^{-1}(F')$}} \in F'
+   $$
 
-   Par définition, il existe $(y, y') \in F'^2$ tels que $f(x) = y$ et $f(x') = y$.
-
-   Or $F'$ est sous-espace vectoriel donc $\alpha y + \beta y' \in F'$. $f \in \mathcal{L}_\K(E, F)$ d'où $f(\alpha x + \beta x') = \alpha y + \beta y'$. Donc $\alpha x + \beta x' \in f^{-1}(F')$.
-
-   Ainsi, $f^{-1}(F')$ est un sous-espace vectoriel.
-
-   En appliquant ce résultat pour $E' = E$ et $F' = \{0_F\}$, nous obtenons que $\ker f$ et $\Im f$ sont des sous-espaces vectoriels.
+   donc $\lambda x_{1}+x_{2} \in f^{-1}(F')$.
