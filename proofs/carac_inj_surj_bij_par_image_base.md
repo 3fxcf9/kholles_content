@@ -1,5 +1,5 @@
 ---
-title: Caractérisation de l’injectivité/surjectivité/bijectivité d’une application linéaire par l’image d’une base de l’espace de départ.
+title: Caractérisation de l’injectivité / surjectivité / bijectivité d’une application linéaire par l’image d’une base de l’espace de départ.
 authors:
   - Félix Rondeau
 date: 07/03/2025
