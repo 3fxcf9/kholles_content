@@ -45,7 +45,7 @@ Soient $f\in \L_{\K}(E, F)$ et $(e_{i})_{i\in I}$ une base de $E$.
 
        Alors $x\in \Ker f$ donc $f(x)=0_{F}$ donc $\displaystyle \sum_{i\in I}x_{i}f(e_{i}) = 0_{F}$ or la famille $(f(e_{i}))_{i\in I}$ est libre donc $\forall i\in I, x_{i} = 0_{\K}$ donc $x=0_{E}$. On a donc l’inclusion réciproque.
 
-2. - Supposons $f$ surjective. $(e_{i})_{i\in I}$ est une base de $E$ donc est génératrice dans $E$ donc $(f(e_{i}))_{i\in I}$ est génératrice dans $\mathrm{Im} f$, donc par surjectivité de $f$, $(f(e_{i}))_{i\in I}$ est génératrice dans $F$.
-   - Supposons que $(f(e_{i})_{i\in I})$ engendre $F$. On sait que $\mathrm{Im} f = \Vect f(\text{toute famille génératrice de }E)$. Donc en prenant $(e_{i})_{i\in I}$ comme famille génératrice, on a $\mathrm{Im} f = \Vect (f(e_{i}))_{i\in I}=F$ donc $f$ est surjective.
+2. - Supposons $f$ surjective. $(e_{i})_{i\in I}$ est une base de $E$ donc est génératrice dans $E$ donc $(f(e_{i}))_{i\in I}$ est génératrice dans $\Imf f$, donc par surjectivité de $f$, $(f(e_{i}))_{i\in I}$ est génératrice dans $F$.
+   - Supposons que $(f(e_{i})_{i\in I})$ engendre $F$. On sait que $\Imf f = \Vect f(\text{toute famille génératrice de }E)$. Donc en prenant $(e_{i})_{i\in I}$ comme famille génératrice, on a $\Imf f = \Vect (f(e_{i}))_{i\in I}=F$ donc $f$ est surjective.
 
 3. Elle se déduit des deux précédentes équivalences.
