@@ -14,7 +14,7 @@ $$
     f^{2}=f
 $$
 
-De plus, si $f$ est une projection vectorielle, alprs $f$ est la projection vectorielle sur $\Imf f$ parallèlement à $\Ker f$.
+De plus, si $f$ est une projection vectorielle, alors $f$ est la projection vectorielle sur $\Imf f$ parallèlement à $\Ker f$.
 
 ---
 
