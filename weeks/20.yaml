@@ -1,6 +1,6 @@
 number: 20
 date: 10/03/2025
-description: "Espaces vectoriels: bases et automorphismes"
+description: "Espaces vectoriels: application linéaires et somme de sous-espaces vectoriels."
 tags:
   - algèbre linéaire
 proofs:
