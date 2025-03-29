@@ -2,7 +2,7 @@
 title: template
 authors:
   - Félix Rondeau
-date: 22/03/2025
+date: 29/03/2025
 pid: 0
 tags:
   - algèbre linéaire

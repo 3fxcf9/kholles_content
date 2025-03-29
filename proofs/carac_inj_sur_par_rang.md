@@ -32,15 +32,15 @@ Soient $E$ et $F$ deux $\K$-espaces vectoriels et $f$ une application linéaire 
 
 Notons $n$ la dimension de $E$ et fixons $(e_{1}, \ldots \epsilon_{n})$ une base de $E$.
 
-1. - Supposons que $f$ est inective. Alprs, $(f(e_{1}), \ldots f(e_{n}))$ est une famille libre de $F$, or nous savons qu’elle engendre $\Imf f$(car $(e_{1}, \ldots, e{n})$ engendre $E$) donc $(f(e_{1}), \ldots , f(e_{n}))$ est une base de $\Imf f$ donc $\rg f=f=\dim E$.
+1. - Supposons que $f$ est inective. Alprs, $(f(e_{1}), \ldots f(e_{n}))$ est une famille libre de $F$, or nous savons qu’elle engendre $\Img f$(car $(e_{1}, \ldots, e{n})$ engendre $E$) donc $(f(e_{1}), \ldots , f(e_{n}))$ est une base de $\Img f$ donc $\rg f=f=\dim E$.
 
    - Supposons que $\rg f=\dim E$.
-     $(f(e_{1}), \ldots , f(e_{n}))$ engendre $\Imf f$ (car $(e_{1}, \ldots , e_{n})$ engendre $E$) or $\Imf f$ est de dimension $n$ donc $(f(e_{1}), \ldots , f(e_{n}))$ est une famille génératrice de cardinal minimal donc c’est une base de $\Imf f$. Ainsi, l’image par $f$ de la base $(e_{1}, \ldots , e_{n})$ de $E$ est une famille libre de $F$, donc $f$ est injective.
+     $(f(e_{1}), \ldots , f(e_{n}))$ engendre $\Img f$ (car $(e_{1}, \ldots , e_{n})$ engendre $E$) or $\Img f$ est de dimension $n$ donc $(f(e_{1}), \ldots , f(e_{n}))$ est une famille génératrice de cardinal minimal donc c’est une base de $\Img f$. Ainsi, l’image par $f$ de la base $(e_{1}, \ldots , e_{n})$ de $E$ est une famille libre de $F$, donc $f$ est injective.
 
 2. $$
    \begin{align*}
-       f \text{ est surjective} &\iff \Imf f = F \\
-       &\iff \rg f=\dim F \quad\text{car } \Imf f \subset F
+       f \text{ est surjective} &\iff \Img f = F \\
+       &\iff \rg f=\dim F \quad\text{car } \Img f \subset F
    \end{align*}
    $$
 

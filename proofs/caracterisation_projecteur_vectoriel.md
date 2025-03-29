@@ -14,7 +14,7 @@ $$
     f^{2}=f
 $$
 
-De plus, si $f$ est une projection vectorielle, alors $f$ est la projection vectorielle sur $\Imf f$ parallèlement à $\Ker f$.
+De plus, si $f$ est une projection vectorielle, alors $f$ est la projection vectorielle sur $\Img f$ parallèlement à $\Ker f$.
 
 ---
 
@@ -43,15 +43,15 @@ De plus, si $f$ est une projection vectorielle, alors $f$ est la projection vect
 
 - $(\impliedby)$
 
-  - *Étape 1* : montrons que $E=\Imf f\oplus \Ker f$.
+  - *Étape 1* : montrons que $E=\Img f\oplus \Ker f$.
 
-    - _Analyse._ Soit $x\in E$ fixé quelconque. Supposons qu’il existe $(x_{I}, x_{K})\in \Imf f \times \Ker f$ tels que
+    - _Analyse._ Soit $x\in E$ fixé quelconque. Supposons qu’il existe $(x_{I}, x_{K})\in \Img f \times \Ker f$ tels que
 
       $$
           x=x_{I}+x_{K} \qquad (1)
       $$
 
-      $x_{I}\in\Imf f$ donc $\exists x'_{I}\in E: \; f(x'_{I})=x_{I}$ d’où
+      $x_{I}\in\Img f$ donc $\exists x'_{I}\in E: \; f(x'_{I})=x_{I}$ d’où
 
       $$
           x=f(x'_{I})+x_{K} \qquad (2)
@@ -85,17 +85,17 @@ De plus, si $f$ est une projection vectorielle, alors $f$ est la projection vect
       et observons que
 
       1. $x_{1} + x_{2} = f(x) + x - f(x) = x$
-      2. $x_{1} = f(x)$ donc $x_{1}\in \Imf f$
+      2. $x_{1} = f(x)$ donc $x_{1}\in \Img f$
       3. $f(x_{2}) = f \big((\Id_{E}-f)(x)\big)=\big(f\circ (\Id_{E}-f)\big)(x)=(f^{2}-f)(x)=0_{E}$ donc $x_{2}\in\Ker f$
 
-      Ainsi, tout vecteur de $E$ se décompose comme somme d’un vecteur de $\Imf f$ et d’un vecteur de $\Ker f$ donc $E=\Imf f \oplus \Ker f$.
+      Ainsi, tout vecteur de $E$ se décompose comme somme d’un vecteur de $\Img f$ et d’un vecteur de $\Ker f$ donc $E=\Img f \oplus \Ker f$.
 
   - *Étape 2* : identifions $f$.
     D’après la première étape, nous pouvons expliciter $f$ :
 
     $$
       f : \begin{array}{rcccl}
-          E &=& \Imf f \oplus \Ker f & \longrightarrow & E \\
+          E &=& \Img f \oplus \Ker f & \longrightarrow & E \\
           x &=& f(x) + x-f(x) & \longmapsto & f(x)
       \end{array}
     $$
