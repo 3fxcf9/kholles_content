@@ -1,5 +1,5 @@
 ---
-title: Inversibles de l’anneau $\K[X]$
+title: Inversibles de l’anneau $\mathbb K[X]$
 authors:
   - Félix Rondeau
 date: 29/03/2025
