@@ -16,7 +16,7 @@ Exprimer $S_{3} = x^{1}_{3}+x^{2}_{3}+x_{2}^{3}$ grace aux fonction symétriques
 On a
 
 $$
-    P = X^{3} + \sigma_{1}X_{2} + \sigma_{2}X - \sigma_{3}
+    P = X^{3} - \sigma_{1}X_{2} + \sigma_{2}X - \sigma_{3}
 $$
 
 Sommons

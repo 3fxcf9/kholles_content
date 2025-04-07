@@ -12,7 +12,7 @@ Les éléments inversibles de l’anneau $(\K[X], +, \times)$ sont les polynôme
 
 ---
 
-- Soit $A \in \K^{\times}$ fixé quelconque. Il existe $B \in \K[X]$ tel que $AB=X^{0}$. En prenant le degré,
+- Soit $A \in \K[X]^{\times}$ fixé quelconque. Il existe $B \in \K[X]$ tel que $AB=X^{0}$. En prenant le degré,
 
   $$
       \underbrace{\deg A}_{\in \N \cup \{-\infty\}} + \underbrace{\deg B}_{\in \N \cup \{-\infty\}} = 0

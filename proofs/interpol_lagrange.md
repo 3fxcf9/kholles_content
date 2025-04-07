@@ -21,7 +21,7 @@ $$
 Considérons l’application
 
 $$
-    \Phi : \applic{\K_{n}[X]}{\K^{n+1}}{P}{(P(x_{0}), \ldots, P(a_{n}))}
+    \Phi : \applic{\K_{n}[X]}{\K^{n+1}}{P}{(P(a_{0}), \ldots, P(a_{n}))}
 $$
 
 - _$\Phi$ est bien définie :_ pour tout $P \in \K_{n}[X]$, la liste $(P(a_{0}), \ldots, P(a_{n}))$ est bien définie

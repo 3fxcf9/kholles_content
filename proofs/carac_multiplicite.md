@@ -41,14 +41,14 @@ Soient $\K$ un corps de caractéristique nulle, et $P \in \K[X]$, $P$ non nul.
    $$
    \begin{align*}
        P^{(k)} &= \sum_{i=0}^{k}\binom{i}{k}[(X-\alpha)^{m}]^{(i)}R^{(k-i)} \\
-   &= \sum_{i=0}^{k}\binom{i}{k}\frac{m}{(m-i)!}(X-\alpha)^{m-i}R^{(k-i)}
+   &= \sum_{i=0}^{k}\binom{i}{k}\frac{m!}{(m-i)!}(X-\alpha)^{m-i}R^{(k-i)}
    \end{align*}
    $$
 
    donc
 
    $$
-       \tilde{P}^{(k)}(\alpha) = \sum_{i=0}^{k}\binom{i}{k}\frac{m}{(m-i)!}\underbrace{(\alpha-\alpha)^{m-i}}_{=0 \text{ car } m-i>0}\tilde{R}^{(k-i)}(\alpha) = 0
+       \tilde{P}^{(k)}(\alpha) = \sum_{i=0}^{k}\binom{i}{k}\frac{m!}{(m-i)!}\underbrace{(\alpha-\alpha)^{m-i}}_{=0 \text{ car } m-i>0}\tilde{R}^{(k-i)}(\alpha) = 0
    $$
 
    - Supposons que $\forall k \in \iset{0,n}, \tilde{P}^{(k)} = 0$. Appliquons la formule de Taylor en $\alpha$ :
