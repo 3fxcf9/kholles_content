@@ -33,7 +33,7 @@ $$
     D^{i}(T_{k}) = D^{i}\left(\frac{(X-a)^{k}}{k!}\right) =
 \begin{cases}
     0 & \text{si }i>k\\
- \frac{k(k-1)\cdots (k-i+1)}{k!}(X-a)^{k-1} = \frac{1}{(k-i)!}(X-a)^{k-1} =  & \text{si }i \leq k
+ \frac{k(k-1)\cdots (k-i+1)}{k!}(X-a)^{k-i} = \frac{1}{(k-i)!}(X-a)^{k-i} =  & \text{si }i \leq k
 \end{cases}
 $$
 
@@ -46,5 +46,5 @@ $$
 Evaluons en $a$ (image par $\phi_{a}$) :
 
 $$
-    (D^{i}(P)) = \sum_{k=1}^{n}\frac{\lambda_{k}}{(k-i)!}\times \underbrace{\phi_{a}((X-a)^{k-1})}_{=\begin{cases}1 & \text{si }k=i \\ 0 & \text{si } k \geq i\end{cases}} = \frac{\lambda_{i}}{(i-i)!} = \lambda_{i}
+    (D^{i}(P)) = \sum_{k=1}^{n}\frac{\lambda_{k}}{(k-i)!}\times \underbrace{\Psi_{a}((X-a)^{k-i})}_{=\begin{cases}1 & \text{si }k=i \\ 0 & \text{si } k \geq i\end{cases}} = \frac{\lambda_{i}}{(i-i)!} = \lambda_{i}
 $$
