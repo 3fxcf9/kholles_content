@@ -46,5 +46,5 @@ $$
 Evaluons en $a$ (image par $\phi_{a}$) :
 
 $$
-    (D^{i}(P)) = \sum_{k=1}^{n}\frac{\lambda_{k}}{(k-i)!}\times \underbrace{\Psi_{a}((X-a)^{k-i})}_{=\begin{cases}1 & \text{si }k=i \\ 0 & \text{si } k \geq i\end{cases}} = \frac{\lambda_{i}}{(i-i)!} = \lambda_{i}
+    (D^{i}(P)) = \sum_{k=1}^{n}\frac{\lambda_{k}}{(k-i)!}\times \underbrace{\Phi_{a}((X-a)^{k-i})}_{=\begin{cases}1 & \text{si }k=i \\ 0 & \text{si } k \geq i\end{cases}} = \frac{\lambda_{i}}{(i-i)!} = \lambda_{i}
 $$
