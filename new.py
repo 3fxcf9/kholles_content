@@ -55,8 +55,6 @@ def append_pid_to_week(pid):
     with open(filename, 'r') as file:
         lines = file.readlines()
 
-    print(lines)
-
     for i, line in enumerate(lines):
         if line.startswith('proofs:'):
             if '[]' in line:
@@ -69,8 +67,6 @@ def append_pid_to_week(pid):
                 else:
                     lines.append(f'  - {pid}\n')
             break
-
-    print(lines)
 
     with open(filename, 'w') as file:
         file.writelines(lines)
