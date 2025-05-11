@@ -92,8 +92,12 @@ proofs: []
         while (title := input("Title: ").strip()) == '':
             print("Invalid input. Try again.")
 
-        while (authors := input("Authors (comma separated): ").strip()) == '':
-            print("Invalid input. Try again.")
+        # while (authors := input("Authors (comma separated): ").strip()) == '':
+        #     print("Invalid input. Try again.")
+        authors = input("Authors (comma separated) [default: Félix Rondeau]: ").strip()
+        if len(authors) == 0:
+            authors = "Félix Rondeau"
+
         authors = authors.split(',') if len(authors) > 0 else None
         if authors is not None:
             authors = "\n  - " + "\n  - ".join([t for t in authors])
