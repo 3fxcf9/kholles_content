@@ -7,39 +7,6 @@ WEEK_DIR = "weeks"
 PROOF_DIR = "proofs"
 
 
-def get_key():
-    import termios
-    import tty
-
-    fd = sys.stdin.fileno()
-    old = termios.tcgetattr(fd)
-    try:
-        tty.setraw(sys.stdin.fileno())
-        return sys.stdin.read(1)
-    finally:
-        termios.tcsetattr(fd, termios.TCSADRAIN, old)
-
-
-def show_menu(options, prompt="Choose an option:"):
-    position = 0
-    while True:
-        os.system("clear")
-
-        print(prompt)
-        for i, option in enumerate(options):
-            prefix = "> " if i == position else "  "
-            print(f"{prefix} {option}")
-
-        key = get_key()
-        if key == "\x1b":  # Escape sequence
-            key += sys.stdin.read(2)  # Read rest of escape code
-            if key == "\x1b[A":  # Up arrow
-                position = (position - 1) % len(options)
-            elif key == "\x1b[B":  # Down arrow
-                position = (position + 1) % len(options)
-        elif key == "\r":  # Enter key
-            return options[position]
-
 
 def get_last_week_number() -> int:
     files = os.listdir(WEEK_DIR)
@@ -80,10 +47,9 @@ def append_pid_to_week(pid):
 
 
 if __name__ == "__main__":
-    options = ["New week", "New proof"]
-    selected = show_menu(options, "What do you want to create :")
+    selected = input("What do you want to create (week, proof) :")
 
-    if selected == "New week":
+    if selected == "week":
         while (date := input("Monday’s date (eg. 07/04/2025): ").strip()) == "":
             print("Invalid input. Try again.")
 
