@@ -2,7 +2,7 @@
 title: Toute suite convergente est bornée
 authors:
   - Julien Dubousquet
-date: 11/28/2025
+date: 28/11/2025
 pid: 1764362755
 tags:
   - Limites

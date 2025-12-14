@@ -2,7 +2,7 @@
 title: Résolution explicite (sur un exemple) d'une relation de récurrence linéaire d'ordre 1 ou 2 à coefficients constants avec un second membre produit d'un polynôme et d'une suite géométrique.
 authors:
   - Julien Dubousquet
-date: 12/07/2025
+date: 07/12/2025
 pid: 1765122409
 tags:
   - Relation de récurrence

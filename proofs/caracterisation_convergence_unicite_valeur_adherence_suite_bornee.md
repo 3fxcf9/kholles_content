@@ -2,7 +2,7 @@
 title: (facultative) Caractérisation de la convergence par l'unicité d'une valeur d'adhérence pour une suite bornée.
 authors:
   - Julien Dubousquet
-date: 12/07/2025
+date: 07/12/2025
 pid: 1765121729
 tags:
   - Convergence de suite

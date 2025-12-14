@@ -2,7 +2,7 @@
 title: Gradient en coordonnées polaires
 authors:
   - Félix Rondeau
-date: 06/07/2025
+date: 07/06/2025
 pid: 1749307294
 tags:
   - fonctions de deux variables

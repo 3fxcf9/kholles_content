@@ -2,7 +2,7 @@
 title: Preuve de la caractérisation de la densité avec des $\varepsilon$.
 authors:
   - Julien Dubousquet
-date: 11/22/2025
+date: 22/11/2025
 pid: 1763852335
 tags:
   - Réels

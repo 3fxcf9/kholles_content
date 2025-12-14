@@ -2,7 +2,7 @@
 title: Théorème de Cesarò
 authors:
   - Julien Dubousquet
-date: 11/28/2025
+date: 28/11/2025
 pid: 1764363424
 tags:
   - Limites

@@ -2,7 +2,7 @@
 title: Irréductibilité de $X^3 - X + 1$ dans $\mathbb{Q}[X]$
 authors:
   - Félix Rondeau
-date: 04/15/2025
+date: 15/04/2025
 pid: 1744738725
 tags:
   - polynômes

@@ -2,7 +2,7 @@
 title: Théorème de Heine
 authors:
   - Félix Rondeau
-date: 05/03/2025
+date: 03/05/2025
 pid: 1746295014
 tags:
   - intégration

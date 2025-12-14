@@ -2,7 +2,7 @@
 title: Théorème de Gauss-Lucas
 authors:
   - Félix Rondeau
-date: 04/15/2025
+date: 15/04/2025
 pid: 1744741127
 tags:
   - fractions rationnelles

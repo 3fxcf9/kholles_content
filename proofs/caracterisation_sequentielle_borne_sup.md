@@ -2,7 +2,7 @@
 title: Caractérisation séquentielle de la borne supérieure
 authors:
   - Julien Dubousquet
-date: 11/28/2025
+date: 28/11/2025
 pid: 1764362252
 tags:
   - Borne sup

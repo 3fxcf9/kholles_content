@@ -2,7 +2,7 @@
 title: Définition de l’intégrale d’une fonction continue par morceaux
 authors:
   - Félix Rondeau
-date: 05/03/2025
+date: 03/05/2025
 pid: 1746304594
 tags:
   - intégration

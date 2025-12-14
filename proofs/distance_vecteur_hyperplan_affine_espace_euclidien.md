@@ -2,7 +2,7 @@
 title: Distance d’un vecteur à un hyperplan affine dans un espace euclidien
 authors:
   - Félix Rondeau
-date: 06/02/2025
+date: 02/06/2025
 pid: 1748874404
 tags:
   - orthogonalité

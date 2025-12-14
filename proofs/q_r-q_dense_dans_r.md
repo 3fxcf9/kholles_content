@@ -2,7 +2,7 @@
 title: Montrer que $\mathbb{Q}$ est dense dans $\mathbb{R}$ et $\mathbb{R}\setminus\mathbb{Q}$ sont denses dans $\mathbb{R}$.
 authors:
   - Julien Dubousquet
-date: 11/23/2025
+date: 23/11/2025
 pid: 1763852955
 tags:
   - Réels

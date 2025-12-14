@@ -2,7 +2,7 @@
 title: Inégalité de Cauchy-Schwarz dans un espace préhilbertien réel
 authors:
   - Félix Rondeau
-date: 05/24/2025
+date: 24/05/2025
 pid: 1748102589
 tags:
   - espaces préhilbertiens

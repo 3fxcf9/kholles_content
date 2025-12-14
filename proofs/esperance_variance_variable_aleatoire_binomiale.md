@@ -2,7 +2,7 @@
 title: Espérance et variance d’une variable aléatoire suivant une loi binomiale
 authors:
   - Félix Rondeau
-date: 06/18/2025
+date: 18/06/2025
 pid: 1750279142
 tags:
   - variables aléatoires

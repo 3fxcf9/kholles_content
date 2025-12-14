@@ -2,7 +2,7 @@
 title: Théorème spécial des séries alternées
 authors:
   - Félix Rondeau
-date: 05/11/2025
+date: 11/05/2025
 pid: 1746969102
 tags:
   - intégration

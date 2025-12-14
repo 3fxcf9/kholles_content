@@ -2,7 +2,7 @@
 title: Produit d’une matrice carrée avec la transposée de sa comatrice
 authors:
   - Félix Rondeau
-date: 05/18/2025
+date: 18/05/2025
 pid: 1747578250
 tags:
   - déterminant

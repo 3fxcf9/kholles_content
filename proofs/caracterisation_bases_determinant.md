@@ -2,7 +2,7 @@
 title: Caractérisation des bases par le déterminant
 authors:
   - Félix Rondeau
-date: 05/18/2025
+date: 18/05/2025
 pid: 1747567945
 tags:
   - déterminant

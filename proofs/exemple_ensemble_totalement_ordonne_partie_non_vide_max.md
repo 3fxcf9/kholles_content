@@ -2,7 +2,7 @@
 title: Dans un ensemble totalement ordonné, toute partie non vide possède un plus grand élément. Donner un exemple illustrant l'importance du caractère totalement ordonné de l'ensemble considéré ainsi que sa finitude.
 authors:
   - Julien Dubousquet
-date: 11/22/2025
+date: 22/11/2025
 pid: 1763849406
 tags:
   - Corps des réels

@@ -2,7 +2,7 @@
 title: (facultative) Théorème de Bolzano-Weierstrass.
 authors:
   - Julien Dubousquet
-date: 12/07/2025
+date: 07/12/2025
 pid: 1765121573
 tags:
   - Limites de suites

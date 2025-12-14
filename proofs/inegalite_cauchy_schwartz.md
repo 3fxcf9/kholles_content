@@ -2,7 +2,7 @@
 title: Inégalité de Cauchy-Schwartz
 authors:
   - Félix Rondeau
-date: 05/03/2025
+date: 03/05/2025
 pid: 1746307240
 tags:
   - intégration

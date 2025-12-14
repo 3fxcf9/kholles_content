@@ -2,7 +2,7 @@
 title: Convergence d’une suite
 authors:
   - Félix Rondeau
-date: 05/11/2025
+date: 11/05/2025
 pid: 1746968437
 tags:
   - intégration

@@ -2,7 +2,7 @@
 title: Conséquence de l’indépendance sur l’événement contraire
 authors:
   - Félix Rondeau
-date: 06/07/2025
+date: 07/06/2025
 pid: 1749310044
 tags:
   - probabilités

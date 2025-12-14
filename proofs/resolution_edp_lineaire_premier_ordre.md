@@ -2,7 +2,7 @@
 title: Résolution d’une EDP linéaire du premier ordre
 authors:
   - Félix Rondeau
-date: 06/07/2025
+date: 07/06/2025
 pid: 1749306202
 tags:
   - EDP

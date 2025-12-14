@@ -2,7 +2,7 @@
 title: Inégalité triangulaire continue
 authors:
   - Félix Rondeau
-date: 05/03/2025
+date: 03/05/2025
 pid: 1746308557
 tags:
   - intégration

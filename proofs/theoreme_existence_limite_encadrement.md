@@ -2,7 +2,7 @@
 title: Théorème d'existence de la limite par encadrement
 authors:
   - Julien Dubousquet
-date: 11/28/2025
+date: 28/11/2025
 pid: 1764363657
 tags:
   - Limites

@@ -2,7 +2,7 @@
 title: Loi d’une fonction d’une variable aléatoire
 authors:
   - Félix Rondeau
-date: 06/18/2025
+date: 18/06/2025
 pid: 1750270681
 tags:
   - variables aléatoires

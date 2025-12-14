@@ -2,7 +2,7 @@
 title: Primitives des éléments simples de première et seconde espèce
 authors:
   - Félix Rondeau
-date: 05/03/2025
+date: 03/05/2025
 pid: 1746294155
 tags:
   - DES

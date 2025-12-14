@@ -2,7 +2,7 @@
 title: Polynômes irréductibles réels et complexes
 authors:
   - Félix Rondeau
-date: 04/15/2025
+date: 15/04/2025
 pid: 1744737868
 tags:
   - polynômes

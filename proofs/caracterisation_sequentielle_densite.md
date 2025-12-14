@@ -2,7 +2,7 @@
 title: Caractérisation séquentielle de la densité
 authors:
   - Julien Dubousquet
-date: 11/28/2025
+date: 28/11/2025
 pid: 1764362053
 tags:
   - Densité

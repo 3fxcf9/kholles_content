@@ -2,7 +2,7 @@
 title: Calcul de somme d’une série numérique
 authors:
   - Félix Rondeau
-date: 05/09/2025
+date: 09/05/2025
 pid: 1746820424
 tags:
   - intégration

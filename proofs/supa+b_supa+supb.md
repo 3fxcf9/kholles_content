@@ -2,7 +2,7 @@
 title: Montrer que si A et B sont deux parties non vides majorées de $\mathbb{R}$, alors sup(A+B) = supA + supB.
 authors:
   - Julien Dubousquet
-date: 11/22/2025
+date: 22/11/2025
 pid: 1763851544
 tags:
   - Borne sup

@@ -2,7 +2,7 @@
 title: Théoréme de la division Euclidienne dans $\mathbb{Z}$.
 authors:
   - Julien Dubousquet
-date: 11/22/2025
+date: 22/11/2025
 pid: 1763850975
 tags:
   - Arithmétique

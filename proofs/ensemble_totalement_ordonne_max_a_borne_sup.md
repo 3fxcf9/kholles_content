@@ -2,7 +2,7 @@
 title: Montrer que dans un ensemble totalement ordonné (E,≤), une partie A possède un plus grand élément si et seulement si la partie A admet une borne supérieure qui appartient à la partie A. De plus, dans ce cas, maxA=supA.
 authors:
   - Julien Dubousquet
-date: 11/22/2025
+date: 22/11/2025
 pid: 1763850375
 tags:
   - Réels

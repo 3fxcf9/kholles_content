@@ -2,7 +2,7 @@
 title: Comparaison série / intégrale
 authors:
   - Félix Rondeau
-date: 05/11/2025
+date: 11/05/2025
 pid: 1746966999
 tags:
   - intégrale

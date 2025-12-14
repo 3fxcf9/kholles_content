@@ -2,7 +2,7 @@
 title: Existence et unicité d’une primitive qui s’annule en $a$
 authors:
   - Félix Rondeau
-date: 05/09/2025
+date: 09/05/2025
 pid: 1746814608
 tags:
   - intégration

@@ -2,7 +2,7 @@
 title: Orthonormalisation de la base canonique de $\mathbb R_2[X]$ avec la méthode de Gram-Schmidt
 authors:
   - Félix Rondeau
-date: 05/25/2025
+date: 25/05/2025
 pid: 1748173460
 tags:
   - orthogonalité

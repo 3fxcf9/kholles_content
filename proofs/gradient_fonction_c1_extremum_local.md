@@ -2,7 +2,7 @@
 title: Gradient d’une fonction $\mathscr C^1$ en un extremum local
 authors:
   - Félix Rondeau
-date: 06/07/2025
+date: 07/06/2025
 pid: 1749287756
 tags:
   - fonctions de deux variables

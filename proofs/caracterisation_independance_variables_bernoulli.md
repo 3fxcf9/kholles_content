@@ -2,7 +2,7 @@
 title: Caractérisation de l’indépendance de deux variables aléatoires suivant des lois de Bernoulli
 authors:
   - Félix Rondeau
-date: 06/18/2025
+date: 18/06/2025
 pid: 1750282628
 tags:
   - variables aléatoires

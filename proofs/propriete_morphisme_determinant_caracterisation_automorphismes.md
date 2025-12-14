@@ -2,7 +2,7 @@
 title: Propriété de morphisme du déterminant, caractérisation des automorphismes
 authors:
   - Félix Rondeau
-date: 05/18/2025
+date: 18/05/2025
 pid: 1747577215
 tags:
   - déterminant

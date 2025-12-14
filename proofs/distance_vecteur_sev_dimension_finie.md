@@ -2,7 +2,7 @@
 title: Distance d’un vecteur à un sous-espace vectoriel de dimension finie
 authors:
   - Félix Rondeau
-date: 05/25/2025
+date: 25/05/2025
 pid: 1748178132
 tags:
   - espaces préhilbertiens

@@ -2,7 +2,7 @@
 title: Illustrer par des exemples que la convergence de la suite complexe $(u_{n})=(e^{i \theta_{n}})$ n'implique pas la convergence de $(\theta{n})$ même si on impose à $(\theta{n})$ d'être dans l'intervalle $[0,2 \pi[$ pour la rendre unique et bornée.
 authors:
   - Julien Dubousquet
-date: 12/07/2025
+date: 07/12/2025
 pid: 1765122210
 tags:
   - Suites complexes

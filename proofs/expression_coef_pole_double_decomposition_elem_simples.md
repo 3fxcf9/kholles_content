@@ -2,7 +2,7 @@
 title: Expression des coefficients associés à un pôle double dans une décomposition en éléments simples
 authors:
   - Félix Rondeau
-date: 04/16/2025
+date: 16/04/2025
 pid: 1744798590
 tags:
   - fractions rationnelles

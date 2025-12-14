@@ -2,7 +2,7 @@
 title: Caractérisation de la nullité de l’intégrale d’une fonction continue et positive
 authors:
   - Félix Rondeau
-date: 05/03/2025
+date: 03/05/2025
 pid: 1746306478
 tags:
   - intégration

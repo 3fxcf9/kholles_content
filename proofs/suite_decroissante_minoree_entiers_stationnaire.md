@@ -2,7 +2,7 @@
 title: Montrer qu'une suite décroissante et minorée de nombres entiers relatifs est stationnaire.
 authors:
   - Julien Dubousquet
-date: 11/22/2025
+date: 22/11/2025
 pid: 1763851326
 tags:
   - Suite

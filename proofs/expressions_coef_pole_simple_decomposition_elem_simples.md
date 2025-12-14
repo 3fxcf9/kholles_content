@@ -2,7 +2,7 @@
 title: Expressions du coefficient associé à un pôle simple dans une décomposition en éléments simples
 authors:
   - Félix Rondeau
-date: 04/16/2025
+date: 16/04/2025
 pid: 1744797235
 tags:
   - fractions rationnelles

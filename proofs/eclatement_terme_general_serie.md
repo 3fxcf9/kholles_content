@@ -2,7 +2,7 @@
 title: Technique d’éclatement du terme général d’une série
 authors:
   - Félix Rondeau
-date: 05/18/2025
+date: 18/05/2025
 pid: 1747564039
 tags:
   - séries

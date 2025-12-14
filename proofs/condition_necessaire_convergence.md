@@ -2,7 +2,7 @@
 title: Condition nécessaire de convergence
 authors:
   - Félix Rondeau
-date: 05/09/2025
+date: 09/05/2025
 pid: 1746822064
 tags:
   - séries

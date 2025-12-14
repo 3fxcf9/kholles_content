@@ -2,7 +2,7 @@
 title: Densité des matrices inversibles dans les matrices carrées
 authors:
   - Félix Rondeau
-date: 05/24/2025
+date: 24/05/2025
 pid: 1748100909
 tags: []
 ---

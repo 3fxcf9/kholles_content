@@ -2,7 +2,7 @@
 title: Une probabilité conditionnelle est une probabilité
 authors:
   - Félix Rondeau
-date: 06/07/2025
+date: 07/06/2025
 pid: 1749309115
 tags:
   - probabilités

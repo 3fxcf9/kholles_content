@@ -2,7 +2,7 @@
 title: Supplémentaire orthogonal d’un sous-espace vectoriel de dimension finie
 authors:
   - Félix Rondeau
-date: 05/25/2025
+date: 25/05/2025
 pid: 1748172203
 tags:
   - espaces préhilbertiens

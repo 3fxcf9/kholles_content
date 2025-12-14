@@ -2,7 +2,7 @@
 title: Critère de convergence des séries de Riemann
 authors:
   - Félix Rondeau
-date: 05/11/2025
+date: 11/05/2025
 pid: 1746952043
 tags:
   - intégration

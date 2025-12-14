@@ -2,7 +2,7 @@
 title: Approximation uniforme des fonctions continues par une fonction en escalier
 authors:
   - Félix Rondeau
-date: 05/03/2025
+date: 03/05/2025
 pid: 1746302222
 tags:
   - intégration

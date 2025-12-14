@@ -2,7 +2,7 @@
 title: Preuve du théorème de Bolzano-Weierstrass pour les suites complexes à partir du cas réel.
 authors:
   - Julien Dubousquet
-date: 12/07/2025
+date: 07/12/2025
 pid: 1765121871
 tags:
   - Suites complexes

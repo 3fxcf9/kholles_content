@@ -2,7 +2,7 @@
 title: Formules de Cramer
 authors:
   - Félix Rondeau
-date: 05/18/2025
+date: 18/05/2025
 pid: 1747579312
 tags:
   - déterminant

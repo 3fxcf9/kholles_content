@@ -2,7 +2,7 @@
 title: Calcul d’une intégrale grace à une décomposition en éléments simples
 authors:
   - Félix Rondeau
-date: 05/03/2025
+date: 03/05/2025
 pid: 1746291452
 tags:
   - DES

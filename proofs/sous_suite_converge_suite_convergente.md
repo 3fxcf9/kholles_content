@@ -2,7 +2,7 @@
 title: Toute sous-suite d'une suite qui converge vers $\ell$ $\in$ $\mathbb{C}$ converge vers $\ell$ $\in$ $\mathbb{C}$
 authors:
   - Julien Dubousquet
-date: 11/28/2025
+date: 28/11/2025
 pid: 1764363152
 tags:
   - Limites

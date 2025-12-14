@@ -2,7 +2,7 @@
 title: Propriété de l’espérance
 authors:
   - Félix Rondeau
-date: 06/18/2025
+date: 18/06/2025
 pid: 1750272193
 tags:
   - variables aléatoires

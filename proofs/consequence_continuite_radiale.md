@@ -2,7 +2,7 @@
 title: Conséquence de la continuité radiale sur la continuité
 authors:
   - Félix Rondeau
-date: 06/07/2025
+date: 07/06/2025
 pid: 1749285710
 tags:
   - fonctions de deux variables
