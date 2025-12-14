@@ -1,5 +1,5 @@
 ---
-title: Distance d’un vvecteur à un sous-espace vectoriel de dimension finie
+title: Distance d’un vecteur à un sous-espace vectoriel de dimension finie
 authors:
   - Félix Rondeau
 date: 05/25/2025
