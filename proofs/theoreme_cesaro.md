@@ -1,0 +1,46 @@
+---
+title: Théorème de Cesarò
+authors:
+  - Julien Dubousquet
+date: 28/11/2025
+pid: 1764363424
+tags:
+  - Limites
+---
+
+# Théorème de Césarò
+
+Soit $u \in \R^{\N}$ qui converge vers $\ell \in \R$. Alors la moyenne arithmétique des $n$ premiers termes (appelée moyenne de Césarò) converge vers $\ell$.
+
+Soient $u$ une telle suite, $\varepsilon \in \R^*_+$ et $\ell \in \R$ la limite de $u$. Appliquons la définition de la convergence de $u$ pour $\varepsilon \gets \frac{\varepsilon}{2}$ :
+$$
+\exists N \in \N : \forall n \in \N, n \ge N \implies |u_n - \ell| \le \frac{\varepsilon}{2}.
+$$
+
+Fixons un tel $N$. Posons
+$$
+\omega = \sum_{k=0}^{N-1} |u_k - \ell| \in \R.
+$$
+
+Soit $n \in \N$ tel que $n \ge N$. Alors :
+$$
+\left| \frac{1}{n} \sum_{k=0}^{n-1} u_k - \ell \right|
+= \left| \frac{1}{n} \sum_{k=0}^{n-1} (u_k - \ell) \right|
+\le \frac{1}{n} \underbrace{\sum_{k=0}^{N-1} |u_k - \ell|}{=\omega} + \frac{1}{n} \underbrace{\sum_{k=N}^{n-1} |u_k - \ell|}_{\le \frac{\varepsilon}{2}}
+\le \frac{\omega}{n} + \frac{\varepsilon}{2}.
+$$
+
+Ces majorations proviennent de l'inégalité triangulaire et de la convergence de $u$.
+
+De plus, comme la suite $(v_n)_{n \in \N} = \left(\frac{\omega}{n}\right)*{n \in \N}$ converge vers $0$, on applique sa définition pour $\varepsilon \gets \frac{\varepsilon}{2}$ :
+$$
+\exists N' \in \N : \forall n \in \N, n \ge N' \implies |v_n| \le \frac{\varepsilon}{2}.
+$$
+
+On fixe un tel $N'$ et on pose $\Lambda = \max(N, N')$. Pour $n \in \N$ tel que $n \ge \Lambda$, on a donc :
+$$
+\left| \frac{1}{n} \sum_{k=0}^{n-1} u_k - \ell \right| \le \underbrace{\frac{\omega}{n}}_{\le \frac{\varepsilon}{2}} + \frac{\varepsilon}{2} \le \varepsilon.
+$$
+
+Ceci démontre le théorème.
+

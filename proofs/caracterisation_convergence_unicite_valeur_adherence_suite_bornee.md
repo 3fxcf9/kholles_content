@@ -1,0 +1,88 @@
+---
+title: (facultative) Caractérisation de la convergence par l'unicité d'une valeur d'adhérence pour une suite bornée.
+authors:
+  - Julien Dubousquet
+date: 07/12/2025
+pid: 1765121729
+tags:
+  - Convergence de suite
+---
+
+On traite le cas réel, celui sur $\C$ s’adaptant sans difficulté.
+
+Supposons que $u$ converge et posons $\lim u = \ell \in \R$.
+Toutes les sous-suites de $u$ convergent vers $\ell$, donc $L(u) = {\ell}$.
+
+---
+
+Supposons maintenant qu’il existe un unique $\ell \in \R$ tel que
+$L(u) = {\ell}$.
+Par l’absurde, supposons que $u$ ne converge pas vers $\ell$, c’est-à-dire :
+
+$$
+\exists \varepsilon \in \R_+^* \ : \ \forall N \in \N,\
+\exists n \in \N \ :\ n \ge N \text{ et } |u_n - \ell| > \varepsilon.
+$$
+
+Fixons un tel $\varepsilon$.
+
+---
+
+## Construction d’une sous-suite $\varepsilon$-éloignée de $\ell$
+
+On pose :
+
+* $\varphi(0) = \min{ k \in \N \mid |u_k - \ell| > \varepsilon }$
+* puis
+  $\varphi(1) = \min{ k \in \N \mid |u_k - \ell| > \varepsilon,\ \varphi(0) < k }$
+* et on itère :
+
+$$
+\forall n \in \N,\quad
+\varphi(n+1) =
+\min{ k \in \N \mid |u_k - \ell| > \varepsilon,\ \varphi(n) < k }.
+$$
+
+Ainsi :
+
+$$
+\forall n \in \N,\quad |u_{\varphi(n)} - \ell| > \varepsilon.
+$$
+
+---
+
+## Bornitude et application de Bolzano–Weierstrass
+
+Comme $u$ est bornée, il existe $M \in \R_+$ tel que :
+
+$$
+\forall n \in \N,\quad |u_n| \le M.
+$$
+
+Donc la sous-suite $(u_{\varphi(n)})_{n \in \N}$ est bornée.
+
+Par le théorème de Bolzano–Weierstrass, il existe une extractrice $\psi$ et un réel $\ell' \in \R$ tels que
+$(u_{\varphi \circ \psi(n)})_{n\in\N}$ converge vers $\ell'$.
+
+Comme $\varphi \circ \psi$ est encore une extractrice, on a
+$\ell' \in L(u) = {\ell}$.
+
+---
+
+## Contradiction
+
+Pour tout $n \in \N$ :
+
+$$
+\underbrace{|u_{\varphi\circ\psi(n)} - \ell|}_{\xrightarrow[n\to\infty]{}|\ell' - \ell|} > \varepsilon.
+$$
+
+En passant à la limite, on obtient :
+
+$$
+|\ell' - \ell| \ge \varepsilon > 0,
+$$
+
+ce qui est impossible car $\ell$ est l’unique valeur d’adhérence de $u$.
+
+Ainsi $u$ doit nécessairement converger vers $\ell$.

@@ -1,0 +1,54 @@
+---
+title: Caractérisation séquentielle de la densité
+authors:
+  - Julien Dubousquet
+date: 28/11/2025
+pid: 1764362053
+tags:
+  - Densité
+---
+
+## $(\implies)$  
+Supposons que $A$ est dense dans $B$.
+
+- $A \subset B$ par définition.
+
+- Soit $b \in B$ fixé quelconque.  
+  D’après la caractérisation de la densité appliquée pour $b \leftarrow b$ et $\varepsilon \leftarrow \frac{1}{2^{n}}$ :
+
+  $$
+  \exists a \in A : |b - a| \le \frac{1}{2^{n}}.
+  $$
+
+  Notons un tel $a$ par $a_n$. On vient donc de construire la suite $(a_n) \in A^{\mathbb{N}}$ telle que
+
+  $$
+  \forall n \in \mathbb{N},\quad |b - a_n| \le \frac{1}{2^{n}}.
+  $$
+
+  Or $\displaystyle \lim_{n\to+\infty} \frac{1}{2^{n}} = 0$, donc, par le théorème d'encadrement, la suite $(a_n)_{n\in\mathbb{N}}$ converge vers $b$.
+
+---
+
+## $(\impliedby)$  
+Supposons que tout élément de $B$ est limite d’une suite d’éléments de $A$.
+
+- $A \subset B$ par hypothèse.
+
+- Soient $\varepsilon \in \mathbb{R}_{+}^{*}$ et $b \in B$ fixés quelconques.  
+  Soit $(a_n) \in A^{\mathbb{N}}$ une suite qui converge vers $b$ (elle existe par hypothèse).  
+  Appliquons la définition de sa convergence pour $\varepsilon \leftarrow \frac{\varepsilon}{2} > 0$ :
+
+  $$
+  \exists N \in \mathbb{N} : \forall n \in \mathbb{N},\ n \ge N \implies |a_n - b| \le \frac{\varepsilon}{2}.
+  $$
+
+  Fixons un tel $N$. On a alors :
+
+  $$
+  |a_N - b| \le \frac{\varepsilon}{2}
+  \quad\text{donc}\quad
+  |a_N - b| < \varepsilon
+  \quad\text{donc}\quad
+  \exists a \in A : |b - a| < \varepsilon.
+  $$

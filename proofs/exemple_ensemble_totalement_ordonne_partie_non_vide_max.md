@@ -1,0 +1,94 @@
+---
+title: Dans un ensemble totalement ordonné, toute partie non vide possède un plus grand élément. Donner un exemple illustrant l'importance du caractère totalement ordonné de l'ensemble considéré ainsi que sa finitude.
+authors:
+  - Julien Dubousquet
+date: 22/11/2025
+pid: 1763849406
+tags:
+  - Corps des réels
+---
+
+---
+
+Considérons $(E,\preccurlyeq)$ fini et totalement ordonné.
+
+Considérons la propriété $\prop(\cdot)$ définie pour tout $n\in\N^{*}$ par
+
+$$
+\prop(n): \text{« toute partie } A \subset E \text{ de cardinal } n \text{ admet un ppe et un pge ».}
+$$
+
+---
+
+### • Cas $n=1$
+
+Soit $A$ un singleton de $E$ :
+
+$$
+\exists a\in E,\quad A=\{a\}.
+$$
+
+Par réflexivité de $\preccurlyeq$, on a $a\preccurlyeq a$ et $a\in A$.  
+Donc $A$ admet un ppe et un pge, tous deux égaux à $a$.  
+On a donc $\prop(1)$.
+
+---
+
+### • Cas $n=2$
+
+Soit $A$ une partie de $E$ de cardinal $2$ :
+
+$$
+\exists a,b\in E,\quad a\neq b,\quad A=\{a,b\}.
+$$
+
+Comme $E$ est totalement ordonné, on a $a\preccurlyeq b$ ou $b\preccurlyeq a$.
+
+- **Si $a\preccurlyeq b$** :  
+  $b$ est un plus grand élément et $a$ un plus petit.
+
+- **Si $b\preccurlyeq a$** :  
+  $a$ est un plus grand élément et $b$ un plus petit.
+
+Ainsi $\prop(2)$ est vraie.
+
+---
+
+### • Passage de $n$ à $n+1$
+
+Soit $n\ge 2$ tel que $\prop(n)$ est vraie.  
+Soit $A$ une partie de $E$ de cardinal $n+1$ :
+
+$$
+A=\{a_1,\dots,a_{n+1}\}
+$$
+
+avec les $a_k$ deux à deux distincts.
+
+En appliquant $\prop(n)$ à $\{a_1,\dots,a_n\}$ :
+
+$$
+\exists (i,j)\in\{1,\dots,n\}^2,\quad a_i=\min A,\quad a_j=\max A.
+$$
+
+En appliquant $\prop(2)$ à $\{a_i,a_{n+1}\}$ puis $\{a_j,a_{n+1}\}$, on détermine $m=\min A$ et $M=\max A$.
+
+- Pour $M$ :
+  - $M\in A$ car $a_j,a_{n+1}\in A$.
+  - Pour tout $k\le n$, $a_k\preccurlyeq a_j$ et $a_j\preccurlyeq M$, donc $A$ admet un pge : $M$.
+
+- Pour $m$ :
+  - $m\in A$ car $a_i,a_{n+1}\in A$.
+  - Pour tout $k\le n$, $a_i\preccurlyeq a_k$ et $m\preccurlyeq a_i$, donc $A$ admet un ppe : $m$.
+
+Donc $\prop(n+1)$ est vraie.
+
+---
+
+## Nécessité du caractère totalement ordonné
+
+Dans la partie $\{2,5\}$ de $(\N,\, |)$, il n’y a ni ppe ni pge.
+
+## Nécessité de la finitude
+
+Dans $(\R,\le)$, qui est totalement ordonné, l’ensemble $\Z$ n’a ni ppe ni pge.

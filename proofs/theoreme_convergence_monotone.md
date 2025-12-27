@@ -1,0 +1,85 @@
+---
+title: Théorème de la convergence monotone
+authors:
+  - Julien Dubousquet
+date: 28/11/2025
+pid: 1764363539
+tags:
+  - Limites
+---
+
+Soit $u \in \R^\N$ une suite monotone.
+
+* **Si $u$ est croissante** :
+
+  1. Si $u$ est majorée, alors $\lim u = \sup \{ u_k \mid k \in \N \}$
+  2. Si $u$ n'est pas bornée, alors $u$ diverge vers $+\infty$
+
+* **Si $u$ est décroissante** :
+
+  1. Si $u$ est minorée, alors $\lim u = \inf \{ u_k \mid k \in \N \}$
+  2. Si $u$ n'est pas bornée, alors $u$ diverge vers $-\infty$
+
+---
+
+Soit $u \in \R^\N$ monotone.
+
+## 1. $u$ croissante
+
+### (i) $u$ majorée
+
+Alors $\exists M \in \R$ tel que $\forall n \in \N, \ u_n \le M$. Posons
+$$
+\Omega = \{ u_k \mid k \in \N \}.
+$$
+Cette partie de $\R$ est non vide (car $u_0 \in \Omega$) et majorée par $M$, donc elle admet une borne supérieure $\sigma$.
+
+Soit $\epsilon \in \R_+^*$. Alors $\sigma - \epsilon$ ne majore pas $\Omega$, donc $\exists N \in \N$ tel que
+$$
+u_N > \sigma - \epsilon.
+$$
+
+Pour $n \ge N$, par monotonie de $u$, on a
+$$
+u_n \ge u_N \ge \sigma - \epsilon
+$$
+et par définition de $\sigma$
+$$
+u_n \le \sigma.
+$$
+
+Ainsi :
+$$
+\sigma - \epsilon \le u_n \le \sigma \implies -\epsilon \le u_n - \sigma \le 0 \implies |u_n - \sigma| \le \epsilon.
+$$
+
+Donc
+$$
+u_n \xrightarrow[n \to +\infty]{} \sigma.
+$$
+
+### (ii) $u$ non bornée
+
+Soit $A \in \R$. Comme $u$ n'est pas bornée, $\exists N \in \N$ tel que
+$$
+u_N > A.
+$$
+Par monotonie, $\forall n \ge N$, $u_n \ge A$, donc
+$$
+u_n \xrightarrow[n \to +\infty]{} +\infty.
+$$
+
+## 2. $u$ décroissante
+
+Il suffit de remplacer les inégalités inférieures par des inégalités supérieures et d'utiliser la borne inférieure au lieu de la borne supérieure.
+
+1. Si $u$ est minorée,
+   $$
+   u_n \xrightarrow[n \to +\infty]{} \inf \{ u_k \mid k \in \N \}.
+   $$
+
+2. Si $u$ n'est pas bornée,
+   $$
+   u_n \xrightarrow[n \to +\infty]{} -\infty.
+   $$
+

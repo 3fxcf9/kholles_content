@@ -76,7 +76,7 @@ proofs: []
         if authors is not None:
             authors = "\n  - " + "\n  - ".join([t for t in authors])
 
-        date = datetime.now().strftime("%m/%d/%Y")
+        date = datetime.now().strftime("%d/%m/%Y")
 
         pid = int(datetime.now().timestamp())
 
